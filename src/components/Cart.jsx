@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import CartContext from "../store/shopping-cart-context";
+import {CartContext} from "../store/shopping-cart-context";
 
 export default function Cart() {
   // Cosi prendo gli itmes che sono in CartContext la funzione dentro il jsx shopping cart. 
